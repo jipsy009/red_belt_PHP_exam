@@ -1,0 +1,95 @@
+*{
+	font-family: futura;
+}
+.container{
+	width: 940px;
+	height: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid black;
+	background-color: lightblue;
+	overflow: auto;
+}
+	h1{
+		text-align: center;
+	}
+	#register{
+		width: 420px;
+		height: 700px;
+		display: inline-block;
+		position: relative;
+		background-color: silver;
+		margin: 0 auto;
+		border: 2px dotted black;
+		padding: 20px;
+		padding-bottom: 30px;
+		top: 50px;
+		overflow: auto;
+	}
+	#login{
+		width: 420px;
+		height: 250px;
+		display: inline-block;
+		position: relative;
+		background-color: silver;
+		margin: 0 auto;
+		border: 2px dotted black;
+		padding: 20px;
+		padding-bottom: 30px;
+		bottom: 400px;
+		left: 10px;
+		overflow: auto;
+	}
+	#success{
+		color: green;
+	}
+	.error{
+		color: red;
+	}
+	#logout{
+		text-align: right;
+	}
+	#quotableQuotes{
+		width: 420px;
+		height: 700px;
+		display: inline-block;
+		position: relative;
+		background-color: white;
+		margin: 0 auto;
+		border: 1px solid black;
+		padding: 20px;
+		padding-bottom: 30px;
+		top: 30px;
+		overflow: auto;
+	}
+	#favoriteQuotes{
+		width: 420px;
+		height: 400px;
+		display: inline-block;
+		position: relative;
+		background-color: white;
+		margin: 0 auto;
+		border: 1px solid black;
+		padding: 20px;
+		padding-bottom: 30px;
+		bottom: 270px;
+		overflow: auto;
+	}
+	#addQuote{
+		display: inline-block;
+		position: relative;
+		margin: 0 auto;
+		padding: 20px;
+		padding-bottom: 30px;
+		bottom: 280px;
+		left: 465px;
+		overflow: auto;
+	}
+	.quotes{
+		background-color: silver;
+		margin: 20px 0;
+		border: 2px dotted black;
+		padding: 20px;
+		padding-bottom: 30px;
+	}
+
